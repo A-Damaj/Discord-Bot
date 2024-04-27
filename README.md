@@ -44,7 +44,7 @@ This repository contains the code for a versatile Discord bot designed to intera
     * `/endpoint <url>`: Set the endpoint URL for the chosen AI model.
     * `/SetKey <api_key>`: Set the API key for the chosen AI model.
     * `/SetModel <model_name>`: Select the desired AI model (e.g., Bard, Gemini).
-* **Proxy and Server Commands:**
+* **Proxy and Server Commands (configure to allow only adim access):**
     * `/run_ngrok`: Start the ngrok server for external access to the bot.
     * `/proxy`: Get the public URL provided by ngrok.
     * `/stop_ngrok`: Stop the ngrok server.
