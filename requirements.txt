@@ -1,0 +1,15 @@
+flask
+flask-cors
+flask-httpauth
+openai
+sqlite3
+streamlit
+Pillow
+discord.py
+requests
+asyncio
+PyPDF2
+google-generativeai
+faiss-cpu
+transformers
+#torch
