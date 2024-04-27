@@ -16,7 +16,7 @@ This repository contains the code for a versatile Discord bot designed to intera
 1. **Prerequisites:**
     * Python 3.x with required libraries (Flask, discord.py, openai, etc.)
     * Discord bot token
-    * API keys for the desired AI models (Bard, Gemini, etc.)
+    * API keys for the desired AI models (GPT, Gemini, etc.)
     * ngrok (optional, for proxy setup)
 2. **Installation:**
     * Clone the repository to your local machine.
@@ -25,9 +25,7 @@ This repository contains the code for a versatile Discord bot designed to intera
     * Update the bot token, API keys, and other settings in the respective files.
     * Set up the database according to the instructions in `setup_database()` functions.
 4. **Running the Bot:**
-    * Start the Flask server using `python api.py`.
-    * Run the Discord bot using `python bot.py`.
-    * Optionally, start the ngrok server using `ngrok http 5000`.
+    * Run the Discord bot using `python app.py`.
 
 ### Usage:
 
@@ -44,7 +42,7 @@ This repository contains the code for a versatile Discord bot designed to intera
     * `/endpoint <url>`: Set the endpoint URL for the chosen AI model.
     * `/SetKey <api_key>`: Set the API key for the chosen AI model.
     * `/SetModel <model_name>`: Select the desired AI model (e.g., Bard, Gemini).
-* **Proxy and Server Commands (configure to allow only adim access):**
+* **Proxy and Server Commands (configure to allow only admin access):**
     * `/run_ngrok`: Start the ngrok server for external access to the bot.
     * `/proxy`: Get the public URL provided by ngrok.
     * `/stop_ngrok`: Stop the ngrok server.
